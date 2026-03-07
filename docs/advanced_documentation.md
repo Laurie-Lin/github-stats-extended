@@ -415,6 +415,7 @@ You can customize the appearance and behavior of the top languages card using th
 | `role` | Include repositories where the user has one of the specified [roles](https://docs.github.com/en/graphql/reference/enums#repositoryaffiliation) (OWNER, ORGANIZATION_MEMBER, COLLABORATOR). | string (comma-separated values) | `OWNER` |
 | `custom_title` | Sets a custom title for the card. | string | `Most Used Languages` |
 | `disable_animations` | Disables all animations in the card. | boolean | `false` |
+| `prog_bar_bg_color` | Background color of the bars. (Applies only to `normal` layout.) | string (hex color) | `#ddd` |
 | `hide_progress` | Uses the compact layout option, hides percentages, and removes the bars. | boolean | `false` |
 | `size_weight` | Configures language stats algorithm (see [Language stats algorithm](#language-stats-algorithm)). | integer | `1` |
 | `count_weight` | Configures language stats algorithm (see [Language stats algorithm](#language-stats-algorithm)). | integer | `0` |
